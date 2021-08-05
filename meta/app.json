@@ -1,0 +1,36 @@
+{
+  "dataSources": [],
+  "generator": "@radzen/blazor-server",
+  "https": false,
+  "layouts": [
+    "Login",
+    "Main"
+  ],
+  "logo": "",
+  "name": "RadzenAzureAuth",
+  "navigation": [
+    "Home"
+  ],
+  "pages": [
+    "Home",
+    "Unauthorized"
+  ],
+  "security": {
+    "autoGeneratePages": true,
+    "callbackPath": "/signin-oidc",
+    "clientId": "ac7f875e-80d4-4ae7-a498-e084e87f4f39",
+    "domain": "singhajegmail.onmicrosoft.com",
+    "instance": "https://login.microsoftonline.com/",
+    "layout": "Main",
+    "loginLayout": "Login",
+    "overwriteExistingPages": false,
+    "provider": "azuread",
+    "tenantId": "bb2ae00f-38c5-415e-b913-d407b6cb53cd",
+    "loginPage": "Login"
+  },
+  "serverLang": "cs",
+  "serverProject": true,
+  "serverVersion": "5",
+  "startPage": "Home",
+  "theme": "default"
+}

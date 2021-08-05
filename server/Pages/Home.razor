@@ -1,0 +1,18 @@
+﻿@page "/"
+@page "/home"
+@layout MainLayout
+@inherits RadzenAzureAuth.Pages.HomeComponent
+
+@using Radzen
+@using Radzen.Blazor
+@using RadzenAzureAuth.Models
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
+
+
+<RadzenContent Container="main">
+  <ChildContent>
+    <RadzenHeading Size="H1" Text="Home">
+    </RadzenHeading>
+  </ChildContent>
+</RadzenContent>
